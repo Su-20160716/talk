@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template_string, session
+from flask import Flask, request, jsonify, render_template_string, session,send_from_directory
 import json
 import os
 import uuid
@@ -639,7 +639,8 @@ def upload():
 
 @app.route("/project26/uploads/<path:filename>")
 def serve_upload(filename):
-    return send_from_directory(app.config["UPLOAD_FOLDER"], filename)
+    return (
+        send_from_directory(app.config["UPLOAD_FOLDER"], filename))
 
 @app.route("/project26/get_msg", methods=["POST"])
 def get_msg():
@@ -732,4 +733,4 @@ def set_bao():
     return "分配成功！"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=10000, debug=True)
