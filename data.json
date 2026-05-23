@@ -1,0 +1,51 @@
+{
+  "users": {
+    "22679737": {
+      "nick": "Su-001",
+      "pwd": "scrypt:32768:8:1$NeYo1g8G8E4YZPga$9dae0df6f23f441000fdf50857c4d4ed553fb19b8c22c04909fa7308e6c74159b6a8356d85d9265cb1c38d4571afb932f387b3fcfb57a5358f3140624ada7803",
+      "exp": 0,
+      "browser": "1sduavdd93n",
+      "token": "97c1ea53-a6d4-4090-b583-6e11731595af",
+      "ip": "192.168.3.171"
+    },
+    "72189715": {
+      "nick": "SU-0",
+      "pwd": "scrypt:32768:8:1$AxFAOTQYxa27q90C$0a854adb948f403054809a81681ed1c55bfe431a3067c6f3de8e1d65f96d483f0864fa2f36f3846bcd6e1ab2659f3625cc12b915f24acf8446bd0d69a0ec0d56",
+      "exp": 0,
+      "browser": "u9rlh5h9qu",
+      "token": "5051ed69-208d-4838-be34-a8ca92ab0e31",
+      "ip": "127.0.0.1"
+    }
+  },
+  "friends": {
+    "22679737": [],
+    "72189715": []
+  },
+  "chat_data": {
+    "rooms": {
+      "1001": {
+        "name": "日常闲聊群",
+        "messages": [],
+        "online_users": {},
+        "max_msg_count": 200
+      },
+      "1002": {
+        "name": "技术交流群",
+        "messages": [],
+        "online_users": {},
+        "max_msg_count": 200
+      },
+      "1003": {
+        "name": "娱乐分享群",
+        "messages": [],
+        "online_users": {},
+        "max_msg_count": 200
+      }
+    }
+  },
+  "blocked_ips": [],
+  "user_ip": {},
+  "online_map": {},
+  "daily_tasks": {},
+  "reserved_leopard": []
+}
