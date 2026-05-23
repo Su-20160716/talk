@@ -28,6 +28,9 @@ venv/
 # Uploads folder (files uploaded by users)
 uploads/
 
+# Data files
+data.json
+
 # IDE
 .vscode/
 .idea/
@@ -37,3 +40,9 @@ uploads/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
